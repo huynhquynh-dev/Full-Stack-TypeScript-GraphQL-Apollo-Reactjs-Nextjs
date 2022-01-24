@@ -62,3 +62,8 @@ yarn add express graphql apollo-server-express type-graphql class-validator refl
 ```javascript
 yarn add -D @types/express
 ```
+
+Tiếp tục cài:
+```javascript
+yarn add typeorm
+```
