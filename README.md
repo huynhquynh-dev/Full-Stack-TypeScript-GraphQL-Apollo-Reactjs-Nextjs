@@ -67,3 +67,10 @@ Tiếp tục cài:
 ```javascript
 yarn add typeorm
 ```
+
+sau khi thêm apollo server nếu gặp lỗi version 2 thì cài thêm
+```javascript
+yarn add apollo-server-core
+```
+
+Sau khi connect và tạo graphql xong thì vào trang localhost:4000/graphql
