@@ -7,6 +7,7 @@ import { Post } from "./entities/Post";
 import { ApolloServer } from "apollo-server-express";
 import { buildSchema } from "type-graphql";
 import { HelloResolver } from "./resolvers/hello";
+import { UserResolver } from "./resolvers/user";
 // import {Context} from './type/Context'
 // import {ApolloServerPluginLandingPageGraphQLPlayground} from 'apollo-server-core'
 
@@ -25,7 +26,7 @@ const main = async () => {
 
     const apolloServer = new ApolloServer({
         schema: await buildSchema({
-            resolvers: [HelloResolver],
+            resolvers: [HelloResolver, UserResolver],
             validate: false,
         }),
         // context: ({req, res}): Context => ({req, res}),

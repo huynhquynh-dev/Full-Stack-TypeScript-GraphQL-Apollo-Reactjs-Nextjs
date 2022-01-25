@@ -74,3 +74,9 @@ yarn add apollo-server-core
 ```
 
 Sau khi connect và tạo graphql xong thì vào trang localhost:4000/graphql
+
+Tiếp tục tạo resolver user đăng ký
+Cài thư viện mã hóa pass
+```javascript
+yarn add argon2
+```
